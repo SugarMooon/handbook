@@ -1,2 +1,0 @@
-# handbook
-Some useful summary
