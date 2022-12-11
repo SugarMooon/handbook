@@ -1,6 +1,18 @@
 # handbook
 This handbook is a summary of solutions to the problems I encoutered. It includes my understanding on specific knowledge, the way to make your code much neater and useful resources etc.
 
+## Nazca
+### Principles
+**Chain Connection in Nazca:** the angle of the connected pins point towards each other by default.(pin的角度会自己调整以指向对方 by default?)
+**Default Cell:** If there is no cell created, Nazca will create a default cell named *nazca*.
+
+### Function
+#### Display gds
+Export gds files: nd.export_gds()
+Show gds in Jupyter notebook(wow): nd.export_plt()
+#### Elements
+Waveguide: nd.strt()
+Bent waveguide: nd.bend
 ## Git Version Control Commands
 Code Version Control is a great approach to organize your and team's code.
 
